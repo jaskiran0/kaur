@@ -1,0 +1,102 @@
+html,body{
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 150px;
+    padding: 0;
+    padding-left: 100px;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    font-size: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+    color: rgb(139, 8, 8);
+  }
+  .header{
+    position: fixed;
+    background-color: yellow;
+    width: 80%;
+    padding-left: 303px;
+  }
+  .header_mid{
+    width: 80%;
+    float: center;
+    background-color: darkcyan;
+  }
+  .active{
+    color: rgb(139, 8, 8);
+  }
+  .mySlides{display: none;}
+  .imm{
+    display: block;
+    width: 100%;
+    height: 450px;
+  }
+  @keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+  }
+  h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    text-align: center;
+  }
+  h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 200px;
+  }
+  p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 200px;
+  }
+  .pbox{
+    width:68%;
+    display: inline-block;
+  }
+  .imgbox{
+    position: fixed;
+    width: auto;
+    height: auto;
+    display: inline-block;
+  }
+  .gall{
+    width: 92%;
+    height: auto;
+    margin-left: 4%;
+    background-color: aliceblue;
+  }
+  .gallimg{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 200px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 25px;
+  }
+  .call{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
